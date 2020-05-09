@@ -17,3 +17,6 @@ def detail(request, blog_id):
 
 def Contact(request):    
     return render(request, 'blogger/Contact.html')
+
+def BlogPage(request):    
+    return render(request, 'blogger/BlogPage.html')
