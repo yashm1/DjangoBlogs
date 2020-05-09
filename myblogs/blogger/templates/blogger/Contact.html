@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Contact</title>
+     {% load static %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <link rel="stylesheet" href="{%static 'assets/fonts/ionicons.min.css' %}">
+    <link rel="stylesheet" href="{%static  'assets/css/Contact-Form-Clean.css' %}">
+    <link rel="stylesheet" href="{%static 'assets/css/Footer-Dark.css' %}">
+    <link rel="stylesheet" href="{%static 'assets/css/gradient-navbar-1.css' %}">
+    <link rel="stylesheet" href="{%static 'assets/css/gradient-navbar.css' %}">
+    <link rel="stylesheet" href="{%static 'assets/css/Login-Form-Dark.css' %}">
+    <link rel="stylesheet" href="{%static 'assets/css/styles.css' %}">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md" id="app-navbar">
+        <div class="container-fluid"><a class="navbar-brand" href="#"><i class="icon ion-ios-infinite" id="brand-logo"></i></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Home&nbsp;</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#"></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact Us</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Donate</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="contact-clean">
+        <form method="post">
+            <h2 class="text-center">Contact us</h2>
+            <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
+             <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email"></div>
+            <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
+            <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
+        </form>
+    </div>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-md-6 item text">
+                        <h3>Company Name</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem 
+                        lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam 
+                        in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    </div>
+                    <div class="col item social">
+                       <span class="iconify" data-icon="ion-social-facebook" data-inline="false" data-width="30px" data-height="30px"></span>
+                        <span class="iconify" data-icon="ion-social-github" data-inline="false" data-width="30px" data-height="30px"></span>
+                        <span class="iconify" data-icon="ion-social-snapchat" data-inline="false" data-width="30px" data-height="30px"></span>
+                        <span class="iconify" data-icon="ion-social-twitter" data-inline="false" data-width="30px" data-height="30px"></span>
+                    </div>
+                    </div>
+                    
+                <p class="copyright">Yash Mantri © 2020</p>
+            </div>
+        </footer>
+    </div>
+        
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

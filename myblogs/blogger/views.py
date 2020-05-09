@@ -1,4 +1,5 @@
 from django.http import HttpResponse
+from django.shortcuts import render
 from django.template import loader
 
 from .models import BlogContent
@@ -13,3 +14,6 @@ def index(request):
 
 def detail(request, blog_id):
     return HttpResponse("You're looking at question %s." % blog_id)
+
+def Contact(request):    
+    return render(request, 'blogger/Contact.html')
